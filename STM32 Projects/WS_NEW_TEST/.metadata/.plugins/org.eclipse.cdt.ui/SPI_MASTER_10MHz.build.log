@@ -1,0 +1,10 @@
+16:55:07 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+
+16:55:08 Build Finished. 0 errors, 0 warnings. (took 642ms)
+

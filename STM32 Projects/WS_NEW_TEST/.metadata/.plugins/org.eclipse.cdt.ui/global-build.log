@@ -1,0 +1,161 @@
+14:35:41 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SPI_MASTER_10MHz.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\dusan.djuraskovic\Desktop\STM32 Projects\WS_NEW_TEST\SPI_MASTER_10MHz\SPI_MASTER_10MHz\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SPI_MASTER_10MHz.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SPI_MASTER_10MHz.elf
+ 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+arm-none-eabi-objdump -h -S  SPI_MASTER_10MHz.elf  > "SPI_MASTER_10MHz.list"
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1832	  10788	   2a24	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+Finished building: SPI_MASTER_10MHz.list
+ 
+14:35:46 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1832	  10788	   2a24	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+14:36:43 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1832	  10788	   2a24	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+14:37:49 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SPI_MASTER_10MHz.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\dusan.djuraskovic\Desktop\STM32 Projects\WS_NEW_TEST\SPI_MASTER_10MHz\SPI_MASTER_10MHz\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SPI_MASTER_10MHz.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SPI_MASTER_10MHz.elf
+ 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+arm-none-eabi-objdump -h -S  SPI_MASTER_10MHz.elf  > "SPI_MASTER_10MHz.list"
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+Finished building: SPI_MASTER_10MHz.list
+ 
+14:45:32 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+14:46:54 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+15:26:11 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+15:31:54 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+15:40:00 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+15:42:26 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+15:45:11 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SPI_MASTER_10MHz.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\dusan.djuraskovic\Desktop\STM32 Projects\WS_NEW_TEST\SPI_MASTER_10MHz\SPI_MASTER_10MHz\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SPI_MASTER_10MHz.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SPI_MASTER_10MHz.elf
+ 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+arm-none-eabi-objdump -h -S  SPI_MASTER_10MHz.elf  > "SPI_MASTER_10MHz.list"
+   text	   data	    bss	    dec	    hex	filename
+   8120	     40	   1808	   9968	   26f0	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+Finished building: SPI_MASTER_10MHz.list
+ 
+16:04:33 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:51: warning: passing argument 3 of 'HAL_SPI_TransmitReceive_DMA' makes pointer from integer without a cast [-Wint-conversion]
+  113 |    HAL_SPI_TransmitReceive_DMA(&hspi1, buffer_tx, 18);
+      |                                                   ^~
+      |                                                   |
+      |                                                   int
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:277,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h:802:99: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int'
+  802 | HAL_StatusTypeDef HAL_SPI_TransmitReceive_DMA(SPI_HandleTypeDef *hspi, uint8_t *pTxData, uint8_t *pRxData,
+      |                                                                                          ~~~~~~~~~^~~~~~~
+../Core/Src/main.c:113:4: error: too few arguments to function 'HAL_SPI_TransmitReceive_DMA'
+  113 |    HAL_SPI_TransmitReceive_DMA(&hspi1, buffer_tx, 18);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:277,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h:802:19: note: declared here
+  802 | HAL_StatusTypeDef HAL_SPI_TransmitReceive_DMA(SPI_HandleTypeDef *hspi, uint8_t *pTxData, uint8_t *pRxData,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+16:04:49 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "SPI_MASTER_10MHz.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\dusan.djuraskovic\Desktop\STM32 Projects\WS_NEW_TEST\SPI_MASTER_10MHz\SPI_MASTER_10MHz\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SPI_MASTER_10MHz.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SPI_MASTER_10MHz.elf
+ 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+arm-none-eabi-objdump -h -S  SPI_MASTER_10MHz.elf  > "SPI_MASTER_10MHz.list"
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+Finished building: SPI_MASTER_10MHz.list
+ 
+16:09:11 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+16:47:43 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
+16:55:07 **** Incremental Build of configuration Debug for project SPI_MASTER_10MHz ****
+make -j4 all 
+arm-none-eabi-size   SPI_MASTER_10MHz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8916	     40	   1824	  10780	   2a1c	SPI_MASTER_10MHz.elf
+Finished building: default.size.stdout
+ 
